@@ -1,7 +1,9 @@
 # Task description
 
 Demo: https://majestic-hotteok-a2a24a.netlify.app
-Important note!: If the logic in the demo doesn't work, it's likely because the server is down. It automatically shuts down when not in use, and it is turned back on when the server receives a request. Please wait a couple of minutes.
+
+Important note!:
+If the functionality on the site is not working, it's likely because the server is down. It automatically shuts down when not in use and is turned back on when a request is received. Please wait a couple of minutes.
 
 
 ## Tech stack:
