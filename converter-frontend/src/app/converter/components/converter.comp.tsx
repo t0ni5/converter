@@ -14,7 +14,6 @@ import {
 import {
   addCurrency,
   deleteCurrency,
-  resetCurrencies,
   setNotification,
   setTargetValue,
 } from "../store/converter.slice";
@@ -131,9 +130,7 @@ const Converter: React.FC<ConverterProps> = ({ index }: ConverterProps) => {
 
     setCurrenciesToShow(updatedCurrencies);
 
-    e.target.value === ""
-      ? dispatch(resetCurrencies())
-      : performCalculation(updatedCurrencies);
+    performCalculation(updatedCurrencies);
   };
 
   return (
