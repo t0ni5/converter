@@ -1,6 +1,6 @@
 # Task description
 
-Repository: https://github.com/t0ni5/converter.git
+Demo: https://majestic-hotteok-a2a24a.netlify.app
 
 
 ## Tech stack:
@@ -104,12 +104,12 @@ Clone the  repository
  git clone  https://github.com/t0ni5/converter.git
 ```
 
-Navigate to the backend folder using the terminal
+Navigate to the backend folder
 
 
 
 ```bash
- cd converter-backend
+ cd converter/converter-backend
 ```
  Rename .env-rename into .env
 
@@ -127,11 +127,9 @@ Start the backend server
 
 Go to the frontend folder
 
+
 ```bash
- cd ..
-```
-```bash
- cd converter-frontend
+ cd converter/converter-frontend
 ```
 
 
