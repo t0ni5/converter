@@ -1,6 +1,7 @@
 # Task description
 
 Demo: https://majestic-hotteok-a2a24a.netlify.app
+Important note!: If the logic in the demo doesn't work, it's likely because the server is down. It automatically shuts down when not in use, and it is turned back on when the server receives a request. Please wait a couple of minutes.
 
 
 ## Tech stack:
@@ -111,7 +112,7 @@ Navigate to the backend folder
 ```bash
  cd converter/converter-backend
 ```
- Rename .env-rename into .env
+ Rename .env-rename to .env
 
 Install dependencies
 
@@ -149,4 +150,5 @@ Start the frontend server
 ```
 
 READY!
+
 
